@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: pink;
+}
+
+.lemon {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  border-radius: 10px 50%;
+  position: relative;
+  transition: all 2s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+  border: 1px solid wheat;
+}
+.leaf {
+  height: 60px;
+  width: 60px;
+  background-color: green;
+  border-radius: 5px 80%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+}
+.first {
+  position: absolute;
+  top: -60px;
+  left: -3px;
+  transform: rotate(90deg);
+}
+.second {
+  position: absolute;
+  top: -22px;
+  left: -78px;
+  transform: rotate(-70deg);
+}
+
+.saplag {
+  height: 50px;
+  width: 2px;
+  background-color: black;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: -40px;
+  left: -17px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+}
+
+.lemon:hover {
+  transform: rotate(720deg) scale(2);
+  cursor: pointer;
+}
